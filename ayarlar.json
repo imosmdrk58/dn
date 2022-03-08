@@ -1,6 +1,9 @@
 {
-  "botOwner": "owner rol id",
+  "botOwner": "bot id",
+  "botPrefix": ".",
   "botToken": "token",
+  "guildID": "sunucu id",
   "botVoiceChannelID": "",
-  "logChannelID": "log kanal id"
+  "inviteChannelID": "invite kanal id ",
+  "durum" : "ASPENDOS ❤️ PUSHA"
 }

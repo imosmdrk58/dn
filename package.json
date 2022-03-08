@@ -1,15 +1,16 @@
 {
-  "name": "server-oneri",
+  "name": "recep-invite",
   "version": "0.0.1",
-  "description": "server Oneri Bot",
+  "description": "Invite Bot",
   "main": "server.js",
   "scripts": {
     "test": "node server.js"
   },
-  "author": "server",
+  "author": "Server",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.12.12"
   },
   "keywords": []
 }
