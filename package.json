@@ -1,16 +1,30 @@
 {
-  "name": "recep-invite",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
-  "description": "Invite Bot",
-  "main": "server.js",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "pusha.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node pusha.js"
   },
-  "author": "Server",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "mongoose": "^5.12.12"
+    "discord.js": "^12.5.0",
+    "extend": "^3.0.2",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
   },
-  "keywords": []
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
